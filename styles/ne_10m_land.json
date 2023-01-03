@@ -1,0 +1,26 @@
+{
+    "version": 8,
+    "name": "ne_10m_land",
+    "metadata": {},
+    "maxZoom": 5,
+    "sources": {
+      "ne_10m_land": {
+        "type": "vector",
+        "tiles": [
+          "https://gtitov.github.io/vector-tiles/tiles/ne_10m_land/{z}/{x}/{y}.pbf"
+        ]
+      }
+    },
+    "layers": [
+      {
+        "id": "ne_10m_land",
+        "type": "fill",
+        "source": "ne_10m_land",
+        "source-layer": "ne_10m_land",
+        "paint": {
+          "fill-color": "#333333"
+        }
+      }
+    ],
+    "id": "ne_10m_land"
+  }
