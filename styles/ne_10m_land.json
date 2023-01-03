@@ -2,13 +2,13 @@
     "version": 8,
     "name": "ne_10m_land",
     "metadata": {},
-    "maxZoom": 5,
     "sources": {
       "ne_10m_land": {
         "type": "vector",
         "tiles": [
           "https://gtitov.github.io/vector-tiles/tiles/ne_10m_land/{z}/{x}/{y}.pbf"
-        ]
+        ],
+        "maxzoom": 5
       }
     },
     "layers": [
