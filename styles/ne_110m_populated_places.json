@@ -1,0 +1,26 @@
+{
+    "version": 8,
+    "id": "ne_110m_populated_places",
+    "name": "ne_110m_populated_places",
+    "metadata": {},
+    "sources": {
+      "ne_110m_populated_places": {
+        "type": "vector",
+        "tiles": [
+          "https://gtitov.github.io/vector-tiles/tiles/ne_110m_populated_places/{z}/{x}/{y}.pbf"
+        ],
+        "maxzoom": 5
+      }
+    },
+    "layers": [
+      {
+        "id": "ne_110m_populated_places",
+        "type": "circle",
+        "source": "ne_110m_populated_places",
+        "source-layer": "ne_110m_populated_places",
+        "paint": {
+          "circle-color": "magenta"
+        }
+      }
+    ]
+  }

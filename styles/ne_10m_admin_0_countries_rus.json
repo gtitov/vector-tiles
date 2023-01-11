@@ -1,0 +1,27 @@
+{
+    "version": 8,
+    "id": "ne_10m_admin_0_countries_rus",
+    "name": "ne_10m_admin_0_countries_rus",
+    "metadata": {},
+    "sources": {
+      "ne_10m_admin_0_countries_rus": {
+        "type": "vector",
+        "tiles": [
+          "https://gtitov.github.io/vector-tiles/tiles/ne_10m_admin_0_countries_rus/{z}/{x}/{y}.pbf"
+        ],
+        "maxzoom": 5
+      }
+    },
+    "layers": [
+      {
+        "id": "ne_10m_admin_0_countries_rus",
+        "type": "fill",
+        "source": "ne_10m_admin_0_countries_rus",
+        "source-layer": "ne_10m_admin_0_countries_rus",
+        "paint": {
+          "fill-color": "#333333",
+          "fill-outline-color": "white"
+        }
+      }
+    ]
+  }

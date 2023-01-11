@@ -1,5 +1,6 @@
 {
     "version": 8,
+    "id": "ne_10m_land",
     "name": "ne_10m_land",
     "metadata": {},
     "sources": {
@@ -21,6 +22,5 @@
           "fill-color": "#333333"
         }
       }
-    ],
-    "id": "ne_10m_land"
+    ]
   }

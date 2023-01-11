@@ -1,0 +1,27 @@
+{
+    "version": 8,
+    "id": "ne_110m_admin_0_countries",
+    "name": "ne_110m_admin_0_countries",
+    "metadata": {},
+    "sources": {
+      "ne_110m_admin_0_countries": {
+        "type": "vector",
+        "tiles": [
+          "https://gtitov.github.io/vector-tiles/tiles/ne_110m_admin_0_countries/{z}/{x}/{y}.pbf"
+        ],
+        "maxzoom": 5
+      }
+    },
+    "layers": [
+      {
+        "id": "ne_110m_admin_0_countries",
+        "type": "fill",
+        "source": "ne_110m_admin_0_countries",
+        "source-layer": "ne_110m_admin_0_countries",
+        "paint": {
+          "fill-color": "#333333",
+          "fill-outline-color": "white"
+        }
+      }
+    ]
+  }
